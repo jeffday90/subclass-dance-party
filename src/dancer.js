@@ -24,6 +24,10 @@ makeDancer.prototype.setPosition = function (top, left){
     this.$node.css(styleSettings);
 }
 
+makeDancer.prototype.lineUp = function(){
+  this.$node.css({'left': $('body').width()/2});
+}
+
 // var aDancer = new makeDancer(10, 20, 1000);
 // console.log(aDancer)
 
