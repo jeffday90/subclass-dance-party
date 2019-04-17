@@ -5,14 +5,19 @@
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <script src="lib/jquery.js"></script>
     <script src="src/dancer.js"></script>
-    <script src="src/blinkyDancer.js"></script>
+    <script src="src/makeHumanDancer.js"></script>
+    <script src="src/makeHordeDancer.js"></script>
+    <script src="src/makeNightElfDancer.js"></script>
     <script src="src/lineUp.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Alegreya SC' rel='stylesheet'>
   </head>
   <body>
     <div class="topbar">
-      <span class="title">object dance party</span>
-      <button type="button" classB="actionButton" onclick="lineUp()">Line Up Dancers</button>
-      <a href="#" class="addDancerButton" data-dancer-maker-function-name="makeBlinkyDancer">add a blinky dancer</a>    </div>
+      <span class="title">Warcraft Dance Party</span>
+      <button type="button" class="lineUpButton" onclick="lineUp()">Line Up Dancers</button>
+      <a href="#" class="addDancerButton" data-dancer-maker-function-name="makeHumanDancer">Add a Human dancer!</a>    
+      <a href="#" class="addDancerButton" data-dancer-maker-function-name="makeHordeDancer">Add a Horde Dancer!</a>    
+      <a href="#" class="addDancerButton" data-dancer-maker-function-name="makeNightElfDancer">Add a Night Elf Dancer!</a>    </div>
     <script src="src/init.js"></script>
   </body>
 </html>

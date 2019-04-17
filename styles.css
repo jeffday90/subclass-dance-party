@@ -3,8 +3,12 @@ body, html{
 }
 body{
   margin: 0px;
-  background-color:#444;
+  background-image: url("https://i.imgur.com/piIr1IO.png");
   font-size: 18px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Alegreya SC';
 }
 body, a:link, a:visited, a:active{
   color: lightblue;
@@ -12,9 +16,10 @@ body, a:link, a:visited, a:active{
 .title, .addDancerButton{
   padding:5px 12px;
   float:right;
+  font-family: 'Alegreya SC';
 }
 .topbar{
-  height:32px;
+  height:37px;
   background-color: #555;
 }
 .title{
@@ -25,3 +30,34 @@ body, a:link, a:visited, a:active{
   border-radius:10px;
   position:absolute;
 }
+
+.lineUpButton{
+  padding:5px 12px;
+  width: 200px;
+  font-size: 18px;  
+  font-family: 'Alegreya SC';
+
+}
+
+/*.dancingCarlton{
+  border: 100px solid blue;
+  border-radius:10px;
+  position:static;
+}*/
+
+.hordeProp{
+  /*border: 10px solid blue;*/
+  /*border-radius:10px;*/
+  width: 50;
+  height: 50; 
+  border: none;
+  border-radius:10px;
+  position:absolute;
+}
+/*
+make dancing carlton button append to the top bar
+shrink carlton
+background-image: url("https://i.imgur.com/qwxfizy.jpg");
+find background image
+make carlton background transparent
+*/
